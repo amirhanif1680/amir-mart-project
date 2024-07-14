@@ -67,7 +67,7 @@ app = FastAPI(
 
 @app.get("/")
 def read_root():
-    return {"Hello": "Product Service"}
+    return {"Hello": "Shah Gee"}
 
 
 @app.post("/manage-products/", response_model=Product)
